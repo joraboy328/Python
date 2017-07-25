@@ -1,5 +1,5 @@
 _username = 'liugang'
-_password = '1234'
+_password = '12345'
 
 user = input ("please input username:")
 pwd = input ("please input password")
