@@ -47,3 +47,30 @@ av_catalog = {
 }
 av_catalog["cn"]["1024"][0] = "good and free!!"
 print(av_catalog)
+
+print(av_catalog.keys())
+print(av_catalog.values())
+av_catalog.setdefault("taiwan",{"www.baidu.com":[1,2]})
+print(av_catalog)
+
+b={
+    'stu011':"liugang",
+    1:3
+}
+av_catalog.update(b)
+print(av_catalog)
+
+print(av_catalog.items())
+
+c = dict.fromkeys([1,2,3],[1,{"name":"alex"},444])
+print(c)
+print(c.items())
+c[3][1]['name'] = "liugang"
+print(c)
+
+print("=================")
+for key in av_catalog:
+    print(key,av_catalog[key])
+
+for k,v in av_catalog.items():
+    print(k,v)
