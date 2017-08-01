@@ -45,5 +45,5 @@ av_catalog = {
         "1024":["free"]
     }
 }
-av_catalog["cn"]["1024"][0] = "good and free"
+av_catalog["cn"]["1024"][0] = "good and free!!"
 print(av_catalog)
